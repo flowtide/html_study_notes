@@ -1,6 +1,6 @@
 body {
-  padding: 100px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 20px;
+  font: 11px "Arial, sans-serif;
 }
 
 body .colors-column {
@@ -16,16 +16,16 @@ body .colors-column .column-header {
 }
 
 body .add-color-col input {
-  margin-bottom: 10px;
+  margin-bottom: 2px;
 }
 
 body .colors-column .color-display-ele {
-  padding-bottom: 10px;
+  padding-bottom: 2px;
 }
 
 body .colors-column .color-display-ele button {
   margin-top: 2px;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
 }
 
 body .colors-column .color-display-ele .edit-view {

@@ -1,21 +1,21 @@
 var allColors = [
-  "rgba(155,159,162,1.2)",
-  "rgba(030,144,255,1.5)",
-  "rgba(255,202,024,1.0)",
-  "rgba(255,202,024,1.0)",
-  "rgba(255,127,039,1.0)",
-  "rgba(255,127,039,1.0)",
-  "rgba(255,202,024,1.0)",
-  "rgba(255,202,024,1.0)",
-  "rgba(255,127,039,1.0)",
-  "rgba(030,144,255,1.5)",
-  "rgba(255,202,024,1.0)",
-  "rgba(255,202,024,1.0)",
-  "rgba(255,127,039,1.0)",
-  "rgba(255,127,039,1.0)",
-  "rgba(255,202,024,1.0)",
-  "rgba(255,202,024,1.0)",
-  "rgba(255,127,039,1.0)"
+  "rgba(155,159,162,1)",
+  "rgba(030,144,255,1)",
+  "rgba(050,205,050,1)",
+  "rgba(255,202,024,1)",
+  "rgba(255,127,039,1)",
+  "rgba(255,127,039,1)",
+  "rgba(255,202,024,1)",
+  "rgba(255,202,024,1)",
+  "rgba(255,127,039,1)",
+  "rgba(030,144,255,1)",
+  "rgba(255,202,024,1)",
+  "rgba(255,202,024,1)",
+  "rgba(255,127,039,1)",
+  "rgba(255,127,039,1)",
+  "rgba(255,202,024,1)",
+  "rgba(255,202,024,1)",
+  "rgba(255,127,039,1)"
 ]
 
 displayColors()
@@ -36,7 +36,7 @@ function pad(num) {
 function getColorDisplayEle(i, color) {
   return `<div class="color-display-ele">
     <div class="normal-view">
-        <div>${pad(i+1)} : <input class="color-input" name="color${i}" id="color${i}" value="${color}">
+        <div>${pad(i)} : <input class="color-input" name="color${i}" id="color${i}" value="${color}">
           <span style="background-color:${color}" id="colorDisplay${i}" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
         </div>
     </div>
